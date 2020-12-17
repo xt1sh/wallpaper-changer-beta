@@ -1,0 +1,34 @@
+body {
+    background: white;
+}
+
+.months-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.month-picker-container {
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.month-picker-button {
+    width: 400px;
+    height: 225px;
+    background-size: cover !important;
+}
+
+.container {
+    padding-top: 25px !important;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
